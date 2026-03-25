@@ -139,22 +139,6 @@ def guardar_csv(inventario, ruta):
 
 ---
 
-### 10. 📂 Cargar inventario
-
-```python
-def cargar_csv(ruta):
-```
-
-* Lee un archivo CSV.
-* Valida:
-
-  * Encabezados correctos
-  * Datos válidos (precio y cantidad positivos)
-* Cuenta filas con errores.
-* Retorna una lista de productos.
-
----
-
 ## 🖥️ MENÚ INTERACTIVO
 
 El programa usa un `while True` para ejecutar un menú continuo:
