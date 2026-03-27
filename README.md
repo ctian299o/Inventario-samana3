@@ -1,12 +1,12 @@
-# 🛒 Sistema de Inventario en Python
+#  Sistema de Inventario en Python
 
-## 📌 Descripción
+##  Descripción
 
 Este programa es un sistema de inventario básico desarrollado en Python que permite gestionar productos mediante operaciones CRUD (Crear, Leer, Actualizar y Eliminar), además de generar estadísticas y guardar/cargar datos desde archivos CSV.
 
 ---
 
-## ⚙️ ¿Cómo funciona el programa?
+##  ¿Cómo funciona el programa?
 
 El sistema utiliza una **lista de diccionarios** para almacenar los productos.
 Cada producto tiene la siguiente estructura:
@@ -21,9 +21,9 @@ Cada producto tiene la siguiente estructura:
 
 ---
 
-## 🧠 Explicación paso a paso
+##  Explicación paso a paso
 
-### 1. 📦 Importación de librería
+### 1.  Importación de librería
 
 ```python
 import csv
@@ -33,7 +33,7 @@ Se importa la librería `csv` para poder guardar y leer archivos en formato CSV.
 
 ---
 
-### 2. 🗃️ Creación del inventario
+### 2.  Creación del inventario
 
 ```python
 inventario = []
@@ -45,7 +45,7 @@ Se inicializa una lista vacía donde se almacenarán los productos.
 
 ## 🔧 FUNCIONES CRUD
 
-### 3. ➕ Agregar producto
+### 3.  Agregar producto
 
 ```python
 def agregar_producto(inventario, nombre, precio, cantidad):
@@ -56,7 +56,7 @@ def agregar_producto(inventario, nombre, precio, cantidad):
 
 ---
 
-### 4. 📋 Mostrar inventario
+### 4.  Mostrar inventario
 
 ```python
 def mostrar_inventario(inventario):
@@ -67,7 +67,7 @@ def mostrar_inventario(inventario):
 
 ---
 
-### 5. 🔍 Buscar producto
+### 5.  Buscar producto
 
 ```python
 def buscar_producto(inventario, nombre):
@@ -79,7 +79,7 @@ def buscar_producto(inventario, nombre):
 
 ---
 
-### 6. ✏️ Actualizar producto
+### 6.  Actualizar producto
 
 ```python
 def actualizar_producto(inventario, nombre, nuevo_precio=None, nueva_cantidad=None):
@@ -94,7 +94,7 @@ def actualizar_producto(inventario, nombre, nuevo_precio=None, nueva_cantidad=No
 
 ---
 
-### 7. ❌ Eliminar producto
+### 7.  Eliminar producto
 
 ```python
 def eliminar_producto(inventario, nombre):
@@ -106,9 +106,9 @@ def eliminar_producto(inventario, nombre):
 
 ---
 
-## 📊 ESTADÍSTICAS
+##  ESTADÍSTICAS
 
-### 8. 📈 Calcular estadísticas
+### 8.  Calcular estadísticas
 
 ```python
 def calcular_estadisticas(inventario):
@@ -125,9 +125,9 @@ Retorna un diccionario con estos datos.
 
 ---
 
-## 💾 ARCHIVOS CSV
+##  ARCHIVOS CSV
 
-### 9. 💽 Guardar inventario
+### 9. Guardar inventario
 
 ```python
 def guardar_csv(inventario, ruta):
@@ -139,7 +139,7 @@ def guardar_csv(inventario, ruta):
 
 ---
 
-## 🖥️ MENÚ INTERACTIVO
+##  MENÚ INTERACTIVO
 
 El programa usa un `while True` para ejecutar un menú continuo:
 
@@ -155,7 +155,7 @@ El programa usa un `while True` para ejecutar un menú continuo:
 9. Salir
 ```
 
-### 🔄 Flujo del programa:
+###  Flujo del programa:
 
 * El usuario elige una opción.
 * El programa ejecuta la función correspondiente.
@@ -163,7 +163,7 @@ El programa usa un `while True` para ejecutar un menú continuo:
 
 ---
 
-## 🚀 Características principales
+##  Características principales
 
 ✅ CRUD completo
 ✅ Validación de datos
@@ -174,7 +174,7 @@ El programa usa un `while True` para ejecutar un menú continuo:
 
 ---
 
-## 🧪 Ejemplo de uso
+##  Ejemplo de uso
 
 ```text
 Elige una opción: 1
@@ -185,7 +185,7 @@ Cantidad: 5
 
 ---
 
-## ⚠️ Posibles mejoras
+##  Posibles mejoras
 
 * Agregar interfaz gráfica (GUI)
 * Usar base de datos (SQLite)
@@ -194,7 +194,7 @@ Cantidad: 5
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Proyecto educativo para aprender:
 
