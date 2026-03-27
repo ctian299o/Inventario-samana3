@@ -1,12 +1,12 @@
-#  Sistema de Inventario en Python
+# Sistema de Inventario en Python
 
-##  Descripción
+## Descripción
 
 Este programa es un sistema de inventario básico desarrollado en Python que permite gestionar productos mediante operaciones CRUD (Crear, Leer, Actualizar y Eliminar), además de generar estadísticas y guardar/cargar datos desde archivos CSV.
 
 ---
 
-##  ¿Cómo funciona el programa?
+## ¿Cómo funciona el programa?
 
 El sistema utiliza una **lista de diccionarios** para almacenar los productos.
 Cada producto tiene la siguiente estructura:
@@ -23,7 +23,7 @@ Cada producto tiene la siguiente estructura:
 
 ##  Explicación paso a paso
 
-### 1.  Importación de librería
+### 1. Importación de librería
 
 ```python
 import csv
@@ -43,7 +43,7 @@ Se inicializa una lista vacía donde se almacenarán los productos.
 
 ---
 
-## 🔧 FUNCIONES CRUD
+## FUNCIONES CRUD
 
 ### 3.  Agregar producto
 
@@ -79,7 +79,7 @@ def buscar_producto(inventario, nombre):
 
 ---
 
-### 6.  Actualizar producto
+### 6. Actualizar producto
 
 ```python
 def actualizar_producto(inventario, nombre, nuevo_precio=None, nueva_cantidad=None):
@@ -94,7 +94,7 @@ def actualizar_producto(inventario, nombre, nuevo_precio=None, nueva_cantidad=No
 
 ---
 
-### 7.  Eliminar producto
+### 7. Eliminar producto
 
 ```python
 def eliminar_producto(inventario, nombre):
@@ -108,7 +108,7 @@ def eliminar_producto(inventario, nombre):
 
 ##  ESTADÍSTICAS
 
-### 8.  Calcular estadísticas
+### 8. Calcular estadísticas
 
 ```python
 def calcular_estadisticas(inventario):
@@ -125,7 +125,7 @@ Retorna un diccionario con estos datos.
 
 ---
 
-##  ARCHIVOS CSV
+## ARCHIVOS CSV
 
 ### 9. Guardar inventario
 
